@@ -40,9 +40,9 @@ useEffect(() => {
     }
  }
  consultarAPI();
-   // eslint-disable-next-line
+    // eslint-disable-next-line
 
-}, [consultar]);
+}, [ciudad, consultar, pais]);
 
 let componente;
 
